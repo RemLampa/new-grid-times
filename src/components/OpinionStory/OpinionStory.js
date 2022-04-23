@@ -25,12 +25,8 @@ const Wrapper = styled.article`
   justify-content: space-between;
   gap: 8px;
 
-  @media ${QUERIES.tabletAndUp} {
+  @media ${QUERIES.tabletOnly} {
     flex-direction: column;
-  }
-
-  @media ${QUERIES.laptopAndUp} {
-    flex-direction: row-reverse;
   }
 `;
 
